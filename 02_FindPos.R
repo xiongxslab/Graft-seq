@@ -8,7 +8,7 @@ suppressMessages(library(data.table))
 suppressMessages(library(doParallel))
 suppressMessages(library(dplyr))
 ######################################################
-# 1.identify the location of the first base of reads #
+# 1.identify the position of the first base of reads #
 ######################################################
 anl_rm <- function(){
   dir <- getwd()
@@ -40,7 +40,7 @@ anl_rm()
 
 
 ##############################################
-#### 2.identify the location of nearest A ####
+#### 2.identify the position of nearest A ####
 ##############################################
 search_m6A <- function(x){
   # substract base(upstream 5nt,downstream 10nt)
