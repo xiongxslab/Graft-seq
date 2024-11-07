@@ -1,5 +1,12 @@
 # Graft-seq
 
+## Prerequisites
+To run this project, you need the following prerequisites:
+- R 4.2.3
+- Hisat2
+- fastp
+- Samtools
+
 ## 01_pre-process.bash
 
    Code for pre-processing raw sequencing data for Graft-seq.
