@@ -2,7 +2,7 @@
 
 ## 01_pre-process.bash
 
-   Code for pre-processing raw sequencing data for Graft-seq:
+   Code for pre-processing raw sequencing data for Graft-seq.
 - Filter reads starting with branch using delNoBranch.bash;
 - Trim the sequence of TSO and adapters using fastp;
 - Align the sequences using Hisat2;
